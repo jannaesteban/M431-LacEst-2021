@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+h1,h2,h3,h4{
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+/*Start of footer*/
+footer{
+    position: static;
+    bottom: 0px;
+    width: 100%;
+    background: #305D93;
+    color: #fff;
+}
+
+.main-content{
+    display: flex;
+}
+
+.main-content .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+
+.box h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.box .content{
+    margin: 20px 0 0 0;
+}
+
+.copyright-para{
+    padding-top: 1em;
+}
+
+button{
+    padding-right: 4px;
+    padding-left: 4px;
+    border-radius: 7px !important;
+    background: #305D93;
+    color: #fff;
+}
+
+button:hover{
+    background: #fff;
+    color: #305D93;
+}
+
+textarea{
+    background: #305D93;
+    color: #fff;
+}
+
+input{
+    background: #305D93;
+    color: #fff;
+}
+
+.icon{
+    margin: 2px;
+    padding: 4px;
+}
+
+.fa-phone-alt::before{
+    content: "\f879";
+}
+
+.icon:hover{
+    background: #fff;
+    color: #305D93;
+    border-radius: 7px;
+}
+
+.left .content p{
+    text-align: justify;
+}
+
+.left .content .social{
+    margin: 20px 0 0 0;
+}
+
+.left .content .social a{
+    padding: 0 2px;
+    color: #fff;
+}
+
+.left .content .social a span{
+    height: 40px;
+    width: 40px;
+    background: #305D93;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.left .content .social a span:hover{
+    color: #305D93;
+    background: #fff;
+}
+/*End of footer*/
+
+
